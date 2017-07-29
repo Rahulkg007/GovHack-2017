@@ -5,6 +5,7 @@ html, body, #quizzie {
   padding: 0;
   width: 100%;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -15,7 +16,7 @@ body {
   background: #677c8a;
   color: #fff;
 }
-
+/*
 h1 {
   font-family: 'Satisfy', 'cursive';
   font-size: 2.5em;
@@ -32,11 +33,82 @@ h1, h2, p {
   width: auto;
   margin: 1%;
 }
+*/
+#mainPageBackground {
+	clear: both;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    height: 550px!important;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+	    background-image: url(../images/craig-strahorn-215112.jpg);
+}
 
+#mainHeading h1{
+font-size: 6em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: 300;
+    margin: 0em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#SummaryBackground {
+	clear: both;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+	padding: 2em 0 2em 0;
+	background-color: #ffffff;
+}
+#SummaryContainer  {
+	    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    overflow: auto;
+	    max-width: 960px;
+		color: #343434;
+}
+#SummaryContainer h2 {
+	font-weight: 300;
+    font-size: 2.5em;
+	    color: #069;
+}
+#SummaryContainer p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+#QuizContainer {
+	  clear: both;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    padding: 2em 0 2em 0;
+    background-color: #222;
+}
 #quizzie {
-  padding: 5% 0;
+      margin-left: auto;
+    display: block;
+    margin-right: auto;
+    overflow: auto;
+    max-width: 960px;
+    color: #ccc;
+    font-weight: 300;
+	    text-align: center;
   /* Individual Steps/Sections */
   /* Content */
+}
+#quizzie h2{
+    font-weight: 300;
+	    font-size: 2.5em;
+}
+#quizzie h3{
+    font-weight: 300;
+	    font-size: 1.6em;
 }
 #quizzie ul {
   list-style: none;

@@ -57,7 +57,12 @@ h1, h2, p {
 }
 
 #mainHeading h1{
-font-size: 5.5em;
+
+    text-align: center;
+}
+
+#mainHeading h1 a{
+font-size: 2.3em;
     font-family: 'Roboto', sans-serif;
     word-spacing: 3px;
     color: rgb(238, 216, 71);
@@ -65,7 +70,9 @@ font-size: 5.5em;
     margin: 0em;
     padding-top: .5em;
     text-align: center;
+	text-decoration: none;
 }
+
 #mainHeading p{
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +80,6 @@ font-size: 5.5em;
     color: rgb(223, 223, 223);
     font-weight: 300;
     margin: 0em;
-    padding-top: .5em;
     text-align: center;
 }
 #SummaryBackground {
@@ -107,6 +113,12 @@ font-size: 5.5em;
     font-size: 1.2em;
     line-height: 1.3em;
 }
+.reference {
+    text-decoration: none;
+    font-style: italic;
+    color: #26b05b;
+}
+
 #QuizContainer {
 	  clear: both;
     margin-left: 0;
@@ -164,6 +176,7 @@ font-size: 5.5em;
     color: #ccc;
     font-weight: 300;
 	    text-align: center;
+		padding-bottom: 5em;
   /* Individual Steps/Sections */
   /* Content */
 }
@@ -256,4 +269,61 @@ h1.result-h {
 .desc {
 	font-size: 1.6em;
     color: #333;
+}
+
+#FooterBackground {
+	
+}
+
+
+
+#FooterBackground {
+    clear: both;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    position: relative;
+    background-color: #222;
+	    padding-bottom: 3em;
+}
+
+#FooterHeading{
+		margin-left: auto;
+    display: block;
+    margin-right: auto;
+    overflow: auto;
+	    max-width: 960px;
+}
+
+#FooterHeading h2{
+font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    color: rgb(238, 216, 71);
+    font-weight: 300;
+    padding-top: .5em;
+    text-align: center;
+	    margin-top: .5em;
+}
+#FooterHeading p{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    color: rgb(174, 174, 174);
+    font-weight: 300;
+    margin: 0em;
+    padding-top: 1em;
+    text-align: center;
+}
+.footerImage {
+
+}
+
+.footerImage img{
+    width: 960px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
 }

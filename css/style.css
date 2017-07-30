@@ -39,11 +39,11 @@ h1, h2, p {
     margin-left: 0;
     width: 100%;
     display: block;
-    height: 500px!important;
+    height: 600px!important;
     background-size: cover;
     position: relative;
     background-position: center center;
-    background-image: url(../images/craig-strahorn-215112.jpg);
+        background-image: url(../images/big-banana222.jpg);
     background-color: #222;
 }
 
@@ -57,15 +57,25 @@ h1, h2, p {
 }
 
 #mainHeading h1{
-    font-size: 5.5em;
+font-size: 5.5em;
     font-family: 'Roboto', sans-serif;
     word-spacing: 3px;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(238, 216, 71);
     font-weight: 300;
     margin: 0em;
-    padding-top: 1em;
+    padding-top: .5em;
+    text-align: center;
 }
-
+#mainHeading p{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    color: rgb(223, 223, 223);
+    font-weight: 300;
+    margin: 0em;
+    padding-top: .5em;
+    text-align: center;
+}
 #SummaryBackground {
 	clear: both;
     margin-left: 0;
@@ -88,6 +98,11 @@ h1, h2, p {
     font-size: 2.5em;
 	    color: #069;
 }
+#SummaryContainer h3 {
+	font-weight: 300;
+    font-size: 1.8em;
+	    color: #fc6669;
+}
 #SummaryContainer p {
     font-size: 1.2em;
     line-height: 1.3em;
@@ -100,6 +115,19 @@ h1, h2, p {
     padding: 2em 0 2em 0;
     background-color: #222;
 	padding: 0 1%;
+	    background-color: #fff;
+}
+
+#SummaryContainer img {
+    max-width: 100%;
+    margin: 1em 0;
+}
+.image {
+    width: 720px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
 }
 .buttonDivCategory {
     margin-bottom: 2em;
@@ -140,19 +168,22 @@ h1, h2, p {
   /* Content */
 }
 #quizzie h2{
-    font-weight: 300;
-	    font-size: 2.5em;
+font-weight: 300;
+    font-size: 3em;
+    color: #069;
+    padding-top: .2em;
 }
 #quizzie h3{
-    font-weight: 300;
-	    font-size: 1.6em;
+font-weight: 300;
+    font-size: 1.8em;
+    color: #fc6669;
+	margin: .5em 0;
 }
 #quizzie ul {
   list-style: none;
   display: block;
   width: auto;
   margin: 2% 2%;
-  padding: 2%;
   overflow: auto;
   display: none;
   /* Step Questions and Answer Options */
@@ -170,6 +201,7 @@ h1, h2, p {
 }
 #quizzie ul li.quiz-answer {
   cursor: pointer;
+      margin-top: 2em;
 }
 #quizzie ul li.question, #quizzie ul li.results-inner {
   display: block;
@@ -183,7 +215,11 @@ h1, h2, p {
   padding: 5% 2%;
 }
 #quizzie ul li.results-inner img {
-  width: 250px;
+  width: 500px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin: 1em auto;
 }
 #quizzie ul li:last-child {
   margin-right: 0;
@@ -191,13 +227,15 @@ h1, h2, p {
 #quizzie .question-wrap, #quizzie .answer-wrap {
   display: block;
   padding: 1%;
-  margin: 1em 10%;
+      margin: 0 15%;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 #quizzie .answer-wrap {
-  background: Turquoise;
+      background: #2196F3;
+    color: #fff;
+    font-weight: 400;
   -moz-transition: background-color 0.5s ease;
   -o-transition: background-color 0.5s ease;
   -webkit-transition: background-color 0.5s ease;
@@ -205,4 +243,17 @@ h1, h2, p {
 }
 #quizzie .answer-wrap:hover {
   background: DarkTurquoise;
+}
+
+.result-p {
+	font-size: 1.6em;
+    color: #333;
+}
+h1.result-h {
+	font-size: 2 em;
+    color: #333;
+}
+.desc {
+	font-size: 1.6em;
+    color: #333;
 }

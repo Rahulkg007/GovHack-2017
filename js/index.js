@@ -2,11 +2,11 @@
 var resultOptions = [
     {   title: 'You are among 15% of bats',
         desc: '<p>Congratulations! You are the big Prawn</p><img src="https://i.imgur.com/tXTjD9k.jpg"/>'},
-    {   title: 'You Are That Thing',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>'},
-    {   title: 'You Are This Other Thing',
+    {   title: 'Congratulations! You are the big prawn<img src="images/Prawn.jpg"/>',
+        desc: '<p class="desc">You are amongst the 12.16% of Australia’s population who speak the right lingo and amongst the jammy 61.4% who stay in a place with 2 or 3 bedrooms.Based on our intutiton you are also among the 22% of australians that spend pretty much no time on domestic chores.</p>'},
+    {   title: '10',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/WXox0Yv.jpg"/>'},
-    {   title: 'You Are This One Thing',
+    {   title: '12',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'},
     {   title: 'You Are A Type Of Thing',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'}

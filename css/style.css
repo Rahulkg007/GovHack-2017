@@ -35,26 +35,35 @@ h1, h2, p {
 }
 */
 #mainPageBackground {
-	clear: both;
+    clear: both;
     margin-left: 0;
     width: 100%;
     display: block;
-    height: 550px!important;
+    height: 500px!important;
     background-size: cover;
     position: relative;
     background-position: center center;
-	    background-image: url(../images/craig-strahorn-215112.jpg);
+    background-image: url(../images/craig-strahorn-215112.jpg);
+    background-color: #222;
+}
+
+#mainHeading{
+		margin-left: auto;
+    display: block;
+    margin-right: auto;
+    overflow: auto;
+    max-width: 960px;
+	    padding: 0 1%;
 }
 
 #mainHeading h1{
-font-size: 6em;
+    font-size: 5.5em;
     font-family: 'Roboto', sans-serif;
     word-spacing: 3px;
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(255, 255, 255, 0.75);
     font-weight: 300;
     margin: 0em;
-    text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 #SummaryBackground {
@@ -72,6 +81,7 @@ font-size: 6em;
     overflow: auto;
 	    max-width: 960px;
 		color: #343434;
+		padding: 0 1%;
 }
 #SummaryContainer h2 {
 	font-weight: 300;
@@ -89,7 +99,34 @@ font-size: 6em;
     display: block;
     padding: 2em 0 2em 0;
     background-color: #222;
+	padding: 0 1%;
 }
+.buttonDivCategory {
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+.buttonDivCategory a {
+	color: #FFF;
+}
+.buttonDivCategory a:hover {
+	color: #FFF;
+}
+.buttonCategory {
+    font-size: 1.5em;
+    padding: .6em 3em;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 2px;
+    -moz-transition: all .5s ease-in-out 0s;
+    -o-transition: all .5s ease-in-out 0s;
+    -ms-transition: all .5s ease-in-out 0s;
+    transition: all .5s ease-in-out 0s;
+    background-color: #2196F3;
+}
+.buttonCategory:hover {
+	background-color: #39a1f4;
+}
+
 #quizzie {
       margin-left: auto;
     display: block;

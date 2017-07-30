@@ -1,7 +1,7 @@
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
-    {   title: 'You Are This Thing',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/tXTjD9k.jpg"/>'},
+    {   title: 'You are among 15% of bats',
+        desc: '<p>Congratulations! You are the big Prawn</p><img src="https://i.imgur.com/tXTjD9k.jpg"/>'},
     {   title: 'You Are That Thing',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>'},
     {   title: 'You Are This Other Thing',
@@ -11,7 +11,7 @@ var resultOptions = [
     {   title: 'You Are A Type Of Thing',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'}
 ];
-    
+
 // global variables
 var quizSteps = $('#quizzie .quiz-step'),
     totalScore = 0;
